@@ -1,0 +1,78 @@
+# Sets the prefix for chat messages.
+prefix: '<dark_gray>[<dark_green>Unique</dark_green>]</dark_gray> '
+print-msg: '<dark_gray>(print)</dark_gray> <message>'
+
+# This message will be sent when a player couldn't be found.
+player-not-online-msg: "<red>This player is not online or doesn't exist.</red>"
+# This message is sent to the console, when they try to run a command that only works on players.
+console-specify-player: '<red>Please specify a player.</red>'
+# This is the message that will be sent to the console when it has to be ran in game.
+console-not-allowed-msg: "<red>You need to be on the server to use this command.</red>"
+# This is the message that is sent to the player, when they don't have the required permissions
+no-perms-msg: "<red>You don't have the required permissions to execute this command.</red>"
+# This is the error that will be sent when no arguments were given.
+no-args-msg: "<red>No arguments were given. Usage: <gold>/<command> <usage>.</red>"
+# This are the force reload messages.
+force-reload-msg: "<dark_green>Forcing reload of the plugin..."
+force-reload-complete-msg: "<dark_green>Forcing reload of the plugin <green>complete</green><dark_green>!"
+# These are the join and leave messages.
+join-msg: "<dark_gray>[<dark_green>+</dark_green>] <green><player></green></dark_gray>"
+quit-msg: "<dark_gray>[<dark_red>-</dark_red>] <red><player></red>"
+
+# These are the toggle messages for god mode.
+god-enabled-msg: '<dark_green>God mode is now <green>enabled</green><dark_green>.'
+god-disabled-msg: '<dark_green>God mode is now <red>disabled</red><dark_green>.'
+# These are the toggle messages for god mode, on the sender's side.
+god-enabled-others-msg: '<dark_green>You have <green>enabled</green> god mode for <gold><target></gold>.</dark_green>'
+god-disabled-others-msg: '<dark_green>You have <red>disabled</red> god mode for <gold><target></gold>.</dark_green>'
+# These are the toggle messages for god mode, on the target's side.
+god-enabled-target-msg: '<dark_green>God mode has now been <green>enabled</green> for you by <gold><player></gold></dark_green>.'
+god-disabled-target-msg: '<dark_green>God mode has now been <red>disabled</red> for you by <gold><player></gold><dark_green>.'
+
+# These are the toggle messages for flight.
+flight-enabled-msg: '<dark_green>Flight is now <green>enabled</green>.'
+flight-disabled-msg: '<dark_green>Flight is now <red>disabled</red><dark_green>.'
+# These are the toggle messages for flight, on the sender's side.
+flight-enabled-others-msg: '<dark_green>You have <green>enabled</green> flight for <gold><target></gold><dark_green>.'
+flight-disabled-others-msg: '<dark_green>You have <red>disabled</red> flight for <gold><target></gold><dark_green>.'
+# These are the toggle messages for flight, on the target's side.
+flight-enabled-target-msg: '<dark_green>Flight has now been <green>enabled</green> for you by <gold><player></gold><dark_green>.'
+flight-disabled-target-msg: '<dark_green>Flight has now been <red>disabled</red> for you by <gold><player></gold><dark_green>.'
+
+# These are the toggle messages for vanish.
+vanish-enabled-msg: '<dark_green>You are now <green>invisible</green><dark_green>.'
+vanish-disabled-msg: '<dark_green>You are now <red>visible</red><dark_green>.'
+vanish-enabled-others-msg: '<gold><target></gold><dark_green> is now <green>invisible</green><dark_green>.'
+vanish-disabled-others-msg: '<gold><target></gold><dark_green> is now <red>visible</red><dark_green>.'
+# Other vanish related messages.
+vanish-hidden-list-msg: '<dark_green>Hidden players: <gold><playerlist></gold>'
+vanish-hidden-none-msg: '<dark_green>There are no hidden players.'
+vanish-mod-logs-msg: '<dark_green><player> <gray>has vanished.'
+
+
+# These are the feed messages.
+feed-msg: "<dark_green>You have now been fed."
+feed-others-msg: '<dark_green>You have now fed <gold><target></gold></dark_green>.'
+feed-target-msg: '<dark_green>You have been fed by <gold><player></gold></dark_green>.'
+
+# These are the heal messages.
+heal-msg: "<dark_green>You have now been healed."
+heal-others-msg: '<dark_green>You have now healed <gold><target></gold><dark_green>.'
+heal-target-msg: '<dark_green>You have been healed by <gold><player></gold><dark_green>.'
+
+# These are the gamemode switcher messages.
+gamemode-switcher-msg: '<dark_green>Your gamemode has been updated to <gold><gamemode></gold>.</dark_green>'
+gamemode-already-set-msg: '<red>You already are in <gold><gamemode></gold>.</red>'
+gamemode-already-set-others-msg: "<red><gold><target></gold>'s gamemode is already set to <gold><gamemode></gold>.</red>"
+gamemode-switch-others-msg: "<dark_green>You have changed <gold><target>'s</gold> to <gold><gamemode></gold>.<dark_green>"
+
+# This is the message that is sent to the mod, when they set a new spawn point.
+setspawn-msg: "<dark_green>Spawn location has now been set <green>successfully.</green>"
+# This is the confirmation message that is sent to the player, when they teleport to the spawn point.
+spawn-tp-msg: "<dark_green>You have been teleported to spawn."
+# This is the message that is sent to the player, when they tried to teleport to the spawn point, but have to wait for the cooldown.
+spawn-cooldown-msg: "<red>You cannot teleport for another <gold><remaining></gold> seconds.</red>"
+# This is the message that is sent to the player, when they tried to teleport to the spawn point, but there is none set.
+spawn-no-location-msg: "<red>There is no spawn location set. Couldn't initiate teleport.</red>"
+# This is the message that is sent to the moderator, when they try to teleport to the spawn point, but there is none set.
+spawn-mod-no-location-msg: "<red>There is no spawn location set. Couldn't initiate teleport. Use <click:run_command:setspawn><u><gold>/setspawn</gold></u></click> to set one.</red>"

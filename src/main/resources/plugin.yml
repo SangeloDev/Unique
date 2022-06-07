@@ -1,0 +1,87 @@
+name: Unique
+version: '${project.version}'
+main: space.sangelo.unique.Unique
+api-version: 1.18
+authors: [ Sangelo ]
+description: Escape the ordinary – Be Unique!
+website: https://sangelo.space
+commands:
+  unique:
+    description: Main Plugin Command. Just a little about page.
+    usage: /<command>
+    aliases:
+      - uq
+      - about
+  print:
+    description: Print a message.
+    usage: /<command> {message}
+    aliases:
+      - hello
+      - test
+      - message
+  god:
+    description: Become invulnerable! Or let anyone else be.
+    usage: /<command> [player]
+  fly:
+    description: Be able to fly! Or let anyone else be.
+    usage: /<command> [player]
+  vanish:
+    description: Become invisible to others!
+    usage: /<command>
+    aliases:
+      - v
+      - invis
+      - invisible
+  heal:
+    description: Heal yourself (or if you'd like, someone else)!
+    usage: /<command> [player]
+  feed:
+    description: Feed yourself (or if you'd like, someone else)!
+    usage: /<command> [player]
+    aliases:
+      - food
+  gmc:
+    description: Set your gamemode to creative.
+    usage: /<command> [player]
+    aliases:
+      - gamemodec
+      - modec
+      - creative
+      - c
+  gms:
+    description: Set your gamemode to survival.
+    usage: /<command> [player]
+    aliases:
+      - gamemodes
+      - modes
+      - survival
+      - s
+  gma:
+    description: Set your gamemode to adventure.
+    usage: /<command> [player]
+    aliases:
+      - gamemodea
+      - modea
+      - adventure
+      - a
+  gmsp:
+    description: Set your gamemode to spectator.
+    usage: /<command> [player]
+    aliases:
+      - gamemodesp
+      - modesp
+      - spectator
+      - sp
+  setspawn:
+    description: Sets the spawnpoint to the current player location.
+    usage: /<command>
+  spawn:
+    description: Teleports the player to the spawnpoint, if there is one specified.
+    usage: /<command>
+  forcereload:
+    description: Force the server to reload the plugin configuration.
+    usage: /<command>
+    aliases:
+      - rlu
+      - rlunique
+      - reloadunique

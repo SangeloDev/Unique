@@ -1,0 +1,79 @@
+#   __  __      _
+#  / / / /___  (_)___ ___  _____
+# / / / / __ \/ / __ `/ / / / _ \
+#/ /_/ / / / / / /_/ / /_/ /  __/
+#\____/_/ /_/_/\__, /\__,_/\___/
+#                /_/
+
+# !! INFO
+# Placeholders:
+# %p is the player's name.
+# %t is the target's name.
+# %c is the placeholder for the command itself.
+# %u is the command's usage.
+# !! Do not replace the placeholders, or change them up, as it will break things !!
+# For example:
+# - Do not do this: Replace %c in no-args-msg with %p.
+# - Do this: Move it around inside of the message, so it makes sense when you translate messages.
+
+# Sets the prefix for chat messages.
+prefix: '&8[&2Unique&8]&r '
+
+# This message will be sent when a player couldn't be found.
+player-not-online-msg: "&cThis player is not online or doesn't exist."
+# This is the message that will be sent to the console when it has to be ran in game.
+console-not-allowed-msg: "&cYou need to be on the server to use this command."
+# This is the message that is sent to the player, when they don't have the required permissions
+no-perms-msg: "&cYou don't have the required permissions to execute this command."
+# This is the error that will be sent when no arguments were given.
+no-args-msg: "&cNo arguments were given. Usage: &6/%c %u&c."
+# These are the join and leave messages.
+join-msg: "&8[&2+&8]&a %p"
+quit-msg: "&8[&4-&8]&c %p"
+
+# These are the toggle messages for god mode.
+god-enabled-msg: '&2God mode is now &aenabled&2.'
+god-disabled-msg: '&2God mode is now &cdisabled&2.'
+# These are the toggle messages for god mode, on the sender's side.
+god-enabled-others-msg: '&2You have &aenabled&2 god mode for &6%t&2.'
+god-disabled-others-msg: '&2You have &cdisabled&2 god mode for &6%t&2.'
+# These are the toggle messages for god mode, on the target's side.
+god-enabled-target-msg: '&2God mode has now been &aenabled&2 for you by &6%p&2.'
+god-disabled-target-msg: '&2God mode has now been &cdisabled&2 for you by &6%p&2.'
+
+# These are the toggle messages for flight.
+flight-enabled-msg: '&2Flight is now &aenabled&2.'
+flight-disabled-msg: '&2Flight is now &cdisabled&2.'
+# These are the toggle messages for flight, on the sender's side.
+flight-enabled-others-msg: '&2You have &aenabled&2 flight for &6%t&2.'
+flight-disabled-others-msg: '&2You have &cdisabled&2 flight for &6%t&2.'
+# These are the toggle messages for flight, on the target's side.
+flight-enabled-target-msg: '&2Flight has now been &aenabled&2 for you by &6%p&2.'
+flight-disabled-target-msg: '&2Flight has now been &cdisabled&2 for you by &6%p&2.'
+
+# These are the toggle messages for vanish.
+vanish-enabled-msg: '&2You are now &ainvisible&2.'
+vanish-disabled-msg: '&2You are now &cvisible&2.'
+
+# These are the feed messages.
+feed-msg: "&2You have now been fed."
+feed-others-msg: '&2You have now fed &6%t&2.'
+feed-target-msg: '&2You have been fed by &6%p&2.'
+
+# These are the heal messages.
+heal-msg: "&2You have now been healed."
+heal-others-msg: '&2You have now healed &6%t&2.'
+heal-target-msg: '&2You have been healed by &6%p&2.'
+
+# This is the message that is sent to the mod, when they set a new spawn point.
+setspawn-msg: "&2Spawn location has now been set &asuccessfully."
+# This is the confirmation message that is sent to the player, when they teleport to the spawn point.
+spawn-tp-msg: "&2You have been teleported to spawn."
+# This is the message that is sent to the player, when they tried to teleport to the spawn point, but have to wait for the cooldown.
+spawn-cooldown-msg: "&cYou cannot teleport for another &6%s&c seconds."
+# This is the message that is sent to the player, when they tried to teleport to the spawn point, but there is none set.
+spawn-no-location-msg: "&cThere is no spawn location set. Couldn't initiate teleport."
+# This is the message that is sent to the moderator, when they tried to teleport to the spawn point, but there is none set.
+spawn-mod-no-location-msg: "&cThere is no spawn location set. Couldn't initiate teleport. Use &6/setspawn &cto set one."
+# This is the command cooldown in seconds. You can type 0 to disable it, or any other number to enable it. Default is 3.
+spawn-command-cooldown: 3

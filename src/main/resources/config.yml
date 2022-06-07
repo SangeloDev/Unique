@@ -1,0 +1,20 @@
+#   __  __      _
+#  / / / /___  (_)___ ___  _____
+# / / / / __ \/ / __ `/ / / / _ \
+#/ /_/ / / / / / /_/ / /_/ /  __/
+#\____/_/ /_/_/\__, /\__,_/\___/
+#                /_/
+
+# !! INFO
+# Placeholders:
+# %p is the player's name.
+# %t is the target's name.
+# %c is the placeholder for the command itself.
+# %u is the command's usage.
+# !! Do not replace the placeholders, or change them up, as it will break things !!
+# For example:
+# - Do not do this: Replace %c in no-args-msg with %p.
+# - Do this: Move it around inside of the message, so it makes sense when you translate messages.
+
+# This is the command cooldown in seconds. You can type 0 to disable it, or any other number to enable it. Default is 3.
+spawn-command-cooldown: 3
