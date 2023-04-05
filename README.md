@@ -10,4 +10,4 @@ Here's how you can contribute:</br>
 Once you've made your wanted changes, you can build and test it using Maven. Then, once everything works, you are welcome to open a pull request, and I'll make sure to review it.</br>
 Thanks for your help!
 ## Wiki and Documentation
-You will find the wiki and the documentation of this project [here](https://url.sangelo.space/unique-wiki). It is still under construction though, it will be filled soon.
+You will find the wiki and the documentation of this project [here](https://wiki.sangelo.space/shelves/unique). It is still under construction though, it will be filled soon.
