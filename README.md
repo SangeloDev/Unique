@@ -1,5 +1,5 @@
 # Unique
-![Unique Logo Banner](https://sangelo.space/assets/img/docs/unique-banner-transparent.png)
+![Unique Logo Banner](https://sangelo.space/assets/img/unique-banner.png)
 **Escape the ordinary – Be Unique!**
 
 This Plugin for Paper and Spigot aims to do what Essentials and others have tried, but in my opinion haven't achieved: Make the use of the plugin as user-friendly as possible. The user should know from a simple description what a command does, how to set it's permissions up and how to use it by reading a simple to understand [WIP] wiki page.
